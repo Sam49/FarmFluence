@@ -35,7 +35,7 @@ const LandingPage = () => {
               <h2 className="text-white text-4xl font-extrabold tracking-wide">FarmFluence</h2>
             </div>
             <div className="space-x-4">
-              <button className="border-2 border-white px-6 py-3 rounded-full font-semibold text-white hover:bg-white hover:text-green-700 transition-all">Login</button>
+              <button className="border-2 border-white px-6 py-3 rounded-full font-semibold text-white hover:bg-white hover:text-green-700 transition-all" onClick={()=>{window.location.href = '/login'}}>Login</button>
               <button className="bg-white text-green-700 px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition-all" onClick={()=>{window.location.href = '/signup'}}>Get Started</button>
             </div>
           </motion.nav>
